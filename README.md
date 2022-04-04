@@ -1,2 +1,2 @@
-# Elice
+# elice
 Elice course materials
