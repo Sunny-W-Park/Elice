@@ -1,0 +1,32 @@
+<style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-style:italic;
+}
+
+p{
+    font-size: xx-large;
+    color: #FF00FF;
+}
+
+.sunny{
+    background: linear-gradient(pink, black);
+    /*Flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.sunny:hover{
+    background: linear-gradient(pink, white);
+}
+
+</style>
