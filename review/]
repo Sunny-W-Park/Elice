@@ -1,0 +1,23 @@
+## 220408 Git manual
+
+### Git 파일 영역의 라이프 사이클
+* working directory
+* staging area
+* repository
+
+### Git 주요 명령어
+```sh
+git init <repository name> :새로운 repository 생성. repo 이름 없으면 해당 디렉토리를 repo화함
+git log :최근 git log 확인  
+
+git status :staging area에 대한 정보 확인
+
+git commit -a "commit msg"
+git commit --ammend :commit 관련 정보 수정
+git diff :commit 된 파일 중 변경된 사항을 비교
+
+```
+
+
+
+
