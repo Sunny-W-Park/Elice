@@ -1,4 +1,4 @@
-## 220408 Git manual
+## 220408 Git basics
 
 ### Git 파일 영역의 라이프 사이클
 * working directory
