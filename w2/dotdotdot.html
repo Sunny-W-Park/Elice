@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+
+
+        </style>
+    </head>
+
+
+    <body>
+        <!-- case 1 -->
+        Javascript is <span 
+        style="
+            background-color: gray;
+            padding: 0px 5px 0px 5px;
+            cursor: pointer;
+        " 
+        onclick ="
+            document.querySelector('#hidden').style.display='inline';
+            this.style.display='none';
+        ">...</span>
+
+        <span id="hidden" style="display:none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, saepe, blanditiis eligendi ducimus
+            laudantium et nulla adipisci error hic fugit odit voluptatibus illo quo facilis deleniti doloremque numquam voluptates
+            cum.</span>
+        
+        <hr>
+
+        <!-- case 2 -->
+        Javascript is <span 
+        style="
+            background-color: gray;
+            padding: 0px 5px 0px 5px;
+            cursor: pointer;
+        " 
+        onclick ="
+            this.style.display='none';
+            document.querySelector('#content').innerHTML = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, saepe, blanditiis eligendi ducimus
+            laudantium et nulla adipisci error hic fugit odit voluptatibus illo quo facilis deleniti doloremque numquam voluptates`;
+        ">...</span>
+
+        <span id="content"></span>
+
+
+
+    </body>
+</html>

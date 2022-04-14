@@ -8,7 +8,6 @@
 
     <style>
     
-
     </style>
 
 </head>
@@ -19,17 +18,21 @@
             if(value === 'night'){
                 document.querySelector('body').style.backgroundColor ='black';
                 document.querySelector('body').style.color ='white';
+                let lis = document.querySelectorAll('li');
+                for(let i = 0; i <= lis.length-1; i++){
+                        lis[i].style.color = 'red';
+                }
                 value = 'day';    
             }
             else if(value === 'day'){
                 document.querySelector('body').style.backgroundColor = 'white';
                 document.querySelector('body').style.color ='black';
+                document.querySelector('li').style.color = 'blue';
                 value = 'night';
             }
         "
     >
     
-
     <!--<script>
         let input_id = prompt('id');
         let id = 'w2';
@@ -50,8 +53,6 @@
             alert('안녕하세요!');
         "
     >-->
-
-    
 
     <h1>Review</h1>
     <ol>
