@@ -73,6 +73,7 @@ header {
     list-style: none;
     display: inline-block;
     font-size: 50px;
+    cursor: pointer;
 }
 
 .arrow {
@@ -81,6 +82,7 @@ header {
     display: inline-block;
     margin-bottom: 13px;
     padding: 3px;
+    cursor: pointer;
   }
   
   .right {
@@ -105,6 +107,10 @@ header {
   }
   */
 
+.live {
+    background-color: #696969 !important;
+}
+
 .dot {
     height: 10px;
     width: 10px;
@@ -123,19 +129,44 @@ header {
 .slideshow {
     display: grid;
     justify-items: center;
-    grid-template-rows: 1fr 7fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
+        /*"slide-active"*/
+        "slide";
+}
+
+/*
+.slide-active {
+    grid-area: slide-active;
+    display: none;
+    grid-template-rows: 1fr 7fr;
+    grid-template-areas:
+        "topic"
+        "content";
+}
+*/
+
+
+.active {
+    display: grid !important;
+}
+
+.slide {
+    grid-area: slide;
+    display: none;
+    grid-template-rows: 1fr 7fr;
+    grid-template-areas:
         "topic"
         "content";
 }
 
-.slideshow .topic {
+.topic {
     grid-area: topic;
     width: 300px; 
     padding: 0px 10px 0px 10px;
 }
 
-.slideshow .content {
+.content {
     grid-area: content;
     width: 300px;
     padding: 0px 10px 0px 10px;
