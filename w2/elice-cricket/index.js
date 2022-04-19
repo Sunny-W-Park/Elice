@@ -78,7 +78,7 @@ document.querySelector(".right-arrow").onclick = function () {
         iterations: 1,
         fill: "both"
     });
-    currentSlide.classList.remove("active");
+    currentSlide.classList.remove('active');
     nextSlide.animate({
         opacity: [0, 1]
     }, {
