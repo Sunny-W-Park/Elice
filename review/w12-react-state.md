@@ -14,7 +14,7 @@
 * 상태가 UI의 변경과 무관할 때 사용
 * useRef 예제: ref 객체를 활용하여 DOM에 접근하기 & current.focus와 current.value 활용하기
 ```js
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect,w useState, useRef } from "react";
 import "./ValidCheck.css";
 
 export default function ValidCheck() {
