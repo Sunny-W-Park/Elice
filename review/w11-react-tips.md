@@ -32,4 +32,3 @@ const [isLoading, setIsLoading] = useState(true);
 </div>
 ```
 
-
