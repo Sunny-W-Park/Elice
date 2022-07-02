@@ -345,9 +345,6 @@ describe("계산된 값을 노출합니다.", () => {
 ### testing 예제(3) UsernameForm 구현
 ```jsx
 // App.js
-
-
 // App.test.js
-
-
 ```
+
